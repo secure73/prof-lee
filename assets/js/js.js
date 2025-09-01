@@ -1,0 +1,1 @@
+//alert("hi"); test pass , this js is linked to page
