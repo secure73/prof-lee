@@ -1,6 +1,54 @@
+body{
+    /*background-image: url("http://127.0.0.1:5500/assets/img/sunset.webp");*/
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
 h1{
+    text-align:center;
+}
+
+.textGreen{
     color: green;
 }
-p{
-    color: blue;
+
+.bigText{
+    font-size: xx-large;
+}
+
+.bgRed{
+    background-color: red;
+}
+.bgBlue{
+    background-color: blue;
+}
+
+.myPad{
+    padding: 20px;
+}
+
+.pad20fromLeft{
+
+    /*padding-left: 20px;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 10px;*/
+    /*       top right bottom   left */
+    padding: 20px  80px  10px   20px;
+}
+
+.myMargin{
+    margin-right: 10px;
+}
+.myZtop{
+
+    z-index: -1;
+}
+
+.myZdown{
+    /*z-index: 200;*/
+    z-index: 1;
+}
+.sideBySide{
+   display: flex;
 }
