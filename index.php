@@ -1,3 +1,7 @@
+<?php 
+  $my_name = "Prof. Lee";
+  $welcome = "Welcome to my website";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,6 +33,22 @@
         <div class="text-2xl">Welcome Prof. Lee website</div>
         <p class="text-xs"> Phd Microprocessor design</p>   
       </div>
+    </div>
+  </section>
+
+  <!-- server area section -->
+  <section>
+    <div class="min-h-32 bg-red-100">
+        <pre>
+          <span class="text-red-500"><?php echo var_dump($_POST);?></span>
+        </pre>
+    </div>
+  </section>
+
+<!-- Working area section -->
+    <section>
+    <div class="min-h-32 bg-blue-100">
+        work
     </div>
   </section>
 
