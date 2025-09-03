@@ -11,6 +11,9 @@ require_once('./code/index.php');
     <div class="grid grid-cols-3 gap-4">
 
       <?php
+      $card_title = "example";
+      $card_content ="example content";
+      $card_link = "example link";
       require('./components/card.php');
       require('./components/card.php');
       require('./components/card.php');
