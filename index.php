@@ -1,7 +1,7 @@
 <?php
 require('./code/readEcho.php');
 
-$IS_DEV = false;
+$IS_DEV = true;
 $my_name = "Prof. Lee";
 $welcome = "Welcome to my website";
 require_once('./code/index.php');
@@ -17,7 +17,6 @@ showHero();
       <?php
         createCard("google","hghghghg","https://www.google.com");
         createCard("amazon","asgdasdhas","https://www.amazone.com");
-
         createCard("ebay","ncnfhcfncfhjdfhjdjdjdjdjdj","https://www.ebay.com");
       ?>
 
