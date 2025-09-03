@@ -15,4 +15,8 @@ function createCard($card_title , $card_content , $card_link){
     </div>';
 }
 
+function createHeader(){
+    
+}
+
 ?>
