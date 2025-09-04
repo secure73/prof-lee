@@ -12,8 +12,8 @@
 <!-- Working area section -->
     <section>
     <div class="min-h-32 bg-blue-100">
-      <!-- it is very un clean and unsafe approach , just to learn how save incomming data on server -->
-       <!-- it is very unsafe approach again!!!! ->
+      <!-- it is very un clean and unsafe approach , just to learn how save incoming data on server -->
+       <!-- it is very unsafe approach again!!!! -->
       <?php
           if(isset($_POST["visitor_name"]) && strlen($_POST["visitor_name"] > 2))
           {
@@ -36,7 +36,7 @@
       ?>
 
 
-        <?=$_POST["visitor_name"]?>, your message received successfully!
+        <?=$_POST["visitor_name"]?> your message received successfully!
     </div>
   </section>
   <!-- ************************* IMPORTANT JUST DEV MODE **************** -->
