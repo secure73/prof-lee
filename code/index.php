@@ -25,10 +25,13 @@ require_once("Message.php");
           {
             /*$my_message is a new instance from object Message*/ 
             $my_message = new Message();
-            $my_message->update();
+            $my_message->sender = $_POST["visitor_name"];
+            $my_message->content = $_POST["visitor_message"];
+
+            $my_message->insert();
            
-           
-           
+            $_POST = [];
+            header("location:index.php");
            
             /*
             $time = date("YY-mm-dd-H-i-s");
