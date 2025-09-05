@@ -45,7 +45,6 @@ class DbConnection
                 throw new PDOException("error in connection from php " . $e->getMessage(), (int)$e->getCode());
             }
         }
-
         return $this->connection;
     }
 

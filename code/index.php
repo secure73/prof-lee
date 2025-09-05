@@ -1,3 +1,9 @@
+<?php 
+require_once("Message.php");
+
+?>
+
+
 <? if($IS_DEV): ?>
  <!-- ************************* IMPORTANT JUST DEV MODE **************** -->
   <!-- server area section -->
@@ -17,6 +23,14 @@
       <?php
           if(isset($_POST["visitor_name"]) && strlen($_POST["visitor_name"] > 2))
           {
+            /*$my_message is a new instance from object Message*/ 
+            $my_message = new Message();
+            $my_message->update();
+           
+           
+           
+           
+            /*
             $time = date("YY-mm-dd-H-i-s");
             $visitor_name = $_POST["visitor_name"];
             $message = $_POST["visitor_message"];
@@ -30,13 +44,11 @@
               $text = $time . $visitor_name  . $message;
               fwrite($myFile,$text);
               fclose($myFile);
-            }
+            }*/
 
           }
       ?>
-
-
-        <?=$_POST["visitor_name"]?> your message received successfully!
+          
     </div>
   </section>
   <!-- ************************* IMPORTANT JUST DEV MODE **************** -->
